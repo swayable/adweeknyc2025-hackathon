@@ -36,7 +36,8 @@ The "comments" CSVs contain qualitative, open-ended survey responses along with 
 Each row in the comments dataset represent one survey respondent. The dataset is structured into three main groups of columns, roughly in this order:
 
 1. **Respondent Metadata**  
-   - `response_id` – Unique ID for the respondent  
+   - `response_id` – Unique ID for the respondent
+   - `treatment_group` - Name of the treatment that the respondent saw
    - `weight` – Statistical weight assigned to this respondent after population balancing (ignore this, it's not expected to be useful for this challenge)
 
 2. **Segment Flags**  
